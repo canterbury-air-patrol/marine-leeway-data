@@ -1,0 +1,32 @@
+{
+  "name": "@canterbury-air-patrol/marine-leeway-data",
+  "version": "0.0.1",
+  "description": "Marine Search and Rescue Leeway Table Data",
+  "main": "marine-leeway-table.js",
+  "scripts": {
+    "check": "eslint *.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canterbury-air-patrol/marine-leeway-data.git"
+  },
+  "keywords": [
+    "sar",
+    "marine",
+    "leeway"
+  ],
+  "author": "Scott Parlane",
+  "license": "PDDL-1.0",
+  "bugs": {
+    "url": "https://github.com/canterbury-air-patrol/marine-leeway-data/issues"
+  },
+  "homepage": "https://github.com/canterbury-air-patrol/marine-leeway-data#readme",
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.2",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
