@@ -1,6 +1,6 @@
 {
   "name": "@canterbury-air-patrol/marine-leeway-data",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Marine Search and Rescue Leeway Table Data",
   "main": "marine-leeway-table.js",
   "scripts": {
