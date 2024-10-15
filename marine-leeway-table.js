@@ -14,13 +14,13 @@ const SearchObjectLeeway = [
   {
     description: 'PIW - Sitting',
     multiplier: 0.012,
-    modifier: 0.00,
+    modifier: 0.0,
     divergence: 18
   },
   {
     description: 'PIW - Horizontal - Survival Suit',
     multiplier: 0.014,
-    modifier: 0.10,
+    modifier: 0.1,
     divergence: 30
   },
   {
@@ -50,7 +50,7 @@ const SearchObjectLeeway = [
   {
     description: 'Survival Craft - Maritime Life Raft - No Ballast - no canopy, w/drogue',
     multiplier: 0.044,
-    modifier: -0.20,
+    modifier: -0.2,
     divergence: 28
   },
   {
@@ -61,14 +61,14 @@ const SearchObjectLeeway = [
   },
   {
     description: 'Survival Craft - Maritime Life Raft - No Ballast - canopy, w/drogue',
-    multiplier: 0.030,
-    modifier: 0.00,
+    multiplier: 0.03,
+    modifier: 0.0,
     divergence: 28
   },
   {
     description: 'Survival Craft - Maritime Life Raft - Shallow Ballast and Canopy - Unknown',
     multiplier: 0.029,
-    modifier: 0.00,
+    modifier: 0.0,
     divergence: 22
   },
   {
@@ -86,12 +86,12 @@ const SearchObjectLeeway = [
   {
     description: 'Survival Craft - Maritime Life Raft - Shallow Ballast and Canopy - capsized',
     multiplier: 0.017,
-    modifier: -0.10,
+    modifier: -0.1,
     divergence: 8
   },
   {
     description: 'Survival Craft - Maritime Life Raft - Deep Ballast and Canopies',
-    multiplier: 0.030,
+    multiplier: 0.03,
     modifier: 0.02,
     divergence: 13
   },
@@ -127,26 +127,26 @@ const SearchObjectLeeway = [
   },
   {
     description: 'Person Powered Craft - Surf Board - w/person',
-    multiplier: 0.020,
-    modifier: 0.00,
+    multiplier: 0.02,
+    modifier: 0.0,
     divergence: 15
   },
   {
     description: 'Person Powered Craft - Wind Surfer - w/person and mast/sail in water',
     multiplier: 0.023,
-    modifier: 0.10,
+    modifier: 0.1,
     divergence: 12
   },
   {
     description: 'Sailing Vessel - Mono-hull - Full Keel - Deep Draft',
-    multiplier: 0.030,
-    modifier: 0.00,
+    multiplier: 0.03,
+    modifier: 0.0,
     divergence: 48
   },
   {
     description: 'Sailing Vessel - Mono-hull - Full Keel - Shoal Draft',
-    multiplier: 0.040,
-    modifier: 0.00,
+    multiplier: 0.04,
+    modifier: 0.0,
     divergence: 48
   },
   {
@@ -157,14 +157,14 @@ const SearchObjectLeeway = [
   },
   {
     description: 'Power Vessel - Skiffs - V-hull - std. Configuraton',
-    multiplier: 0.030,
+    multiplier: 0.03,
     modifier: 0.08,
     divergence: 15
   },
   {
     description: 'Power Vessel - Skiffs - V-hull - Swamped',
     multiplier: 0.017,
-    modifier: 0.00,
+    modifier: 0.0,
     divergence: 15
   },
   {
@@ -175,7 +175,7 @@ const SearchObjectLeeway = [
   },
   {
     description: 'Power Vessel - Sports Fisher - Center Console - Open cockpit',
-    multiplier: 0.060,
+    multiplier: 0.06,
     modifier: -0.09,
     divergence: 22
   },
@@ -187,44 +187,44 @@ const SearchObjectLeeway = [
   },
   {
     description: 'Power Vessels - Commercial Fishing Vessels - Sampans',
-    multiplier: 0.040,
-    modifier: 0.00,
+    multiplier: 0.04,
+    modifier: 0.0,
     divergence: 48
   },
   {
     description: 'Power Vessels - Commercial Fishing Vessels - Side-stern Trawler',
     multiplier: 0.042,
-    modifier: 0.00,
+    modifier: 0.0,
     divergence: 48
   },
   {
     description: 'Power Vessels - Commercial Fishing Vessels - Longliners',
     multiplier: 0.037,
-    modifier: 0.00,
+    modifier: 0.0,
     divergence: 48
   },
   {
     description: 'Power Vessels - Commercial Fishing Vessels - Junk',
     multiplier: 0.027,
-    modifier: 0.10,
+    modifier: 0.1,
     divergence: 48
   },
   {
     description: 'Power Vessels - Commercial Fishing Vessels - Gill-netter - w/rear reel',
-    multiplier: 0.040,
+    multiplier: 0.04,
     modifier: 0.01,
     divergence: 33
   },
   {
     description: 'Power Vessels - Coastal Freighter',
     multiplier: 0.028,
-    modifier: 0.00,
+    modifier: 0.0,
     divergence: 48
   },
   {
     description: 'Boating Debris - F/V Debris',
-    multiplier: 0.020,
-    modifier: 0.00,
+    multiplier: 0.02,
+    modifier: 0.0,
     divergence: 10
   },
   {

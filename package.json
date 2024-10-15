@@ -4,7 +4,7 @@
   "description": "Marine Search and Rescue Leeway Table Data",
   "main": "marine-leeway-table.js",
   "scripts": {
-    "check": "eslint *.js",
+    "check": "eslint *.js && prettier -c *.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,6 +25,7 @@
   "devDependencies": {
     "@eslint/js": "^9.12.0",
     "eslint": "^9.12.0",
-    "globals": "^15.11.0"
+    "globals": "^15.11.0",
+    "prettier": "^3.3.3"
   }
 }
