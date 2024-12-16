@@ -1,4 +1,11 @@
-const SearchObjectLeeway = [
+interface LeewayDataInterface {
+  description: string
+  multiplier: number
+  modifier: number
+  divergence: number
+}
+
+const SearchObjectLeeway: Array<LeewayDataInterface> = [
   {
     description: 'PIW - Unknown',
     multiplier: 0.011,
@@ -247,4 +254,4 @@ const SearchObjectLeeway = [
   }
 ]
 
-export { SearchObjectLeeway }
+export { SearchObjectLeeway, LeewayDataInterface }
