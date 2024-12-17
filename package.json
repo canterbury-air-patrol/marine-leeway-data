@@ -1,10 +1,16 @@
 {
   "name": "@canterbury-air-patrol/marine-leeway-data",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "description": "Marine Search and Rescue Leeway Table Data",
-  "main": "marine-leeway-table.js",
+  "main": "dist/marine-leeway-table.js",
+  "module": "dist/marine-leeway-table.mjs",
+  "types": "dist/marine-leeway-table.d.ts",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
-    "check": "eslint *.js && prettier -c *.js",
+    "build": "tsup",
+    "check": "eslint *.ts && prettier -c *.ts && tsc --noEmit",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +32,9 @@
     "@eslint/js": "^9.12.0",
     "eslint": "^9.12.0",
     "globals": "^15.11.0",
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.0"
   }
 }
